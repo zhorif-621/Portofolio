@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Zhorif Fadrul Rahman">
-  <meta name="description" content="Portofolio Proyek Zhorif">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="Zhorif Fadrul Rahman">
   <title>Portofolio | Zhorif F. Rahman</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.ico">
@@ -15,83 +14,41 @@
       <div class="brand">
         <div class="logo" aria-hidden="true"></div>
         <div>
-          <div style="color:var(--muted);font-size:12px">Portofolio</div>
-          <div style="color:white;font-weight:700">Zhorif F. Rahman</div>
+          <h1>Zhorif Fadrul Rahman</h1>
+          <p>Mahasiswa | Pendidikan Teknik Informatika</p>
         </div>
       </div>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">Tentang Saya</a></li>
-          <li><a href="portfolio.html">Portofolio</a></li>
+          <li><a href="portfolio.html" class="active">Portofolio</a></li>
         </ul>
       </nav>
     </header>
-
-    <main class="main">
-      <section class="section-card">
+    <main style="margin-top:18px">
+      <div class="card">
         <h2>Daftar Proyek</h2>
         <table>
           <thead>
-            <tr>
-              <th>Nama Proyek</th>
-              <th>Deskripsi</th>
-              <th>Tahun</th>
-              <th>Teknologi</th>
-            </tr>
+            <tr><th>Nama Proyek</th><th>Deskripsi</th><th>Tahun</th><th>Teknologi</th></tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Game RPG Maker</td>
-              <td>Game berbasis RPG yang dikembangkan menggunakan RPG Maker, berisi peta, event, dan mekanik sederhana.</td>
-              <td>2025</td>
-              <td>RPG Maker</td>
-            </tr>
-            <tr>
-              <td>Portofolio Pribadi</td>
-              <td>Website portofolio pribadi ini yang menampilkan informasi, karya, dan kontak.</td>
-              <td>2025</td>
-              <td>HTML, CSS</td>
-            </tr>
-            <tr>
-              <td>Desain Aplikasi Kalkulator</td>
-              <td>Desain UI aplikasi kalkulator sederhana, fokus pada UX dan tampilan minimalis.</td>
-              <td>2025</td>
-              <td>Figma / Mockup</td>
-            </tr>
-            <tr>
-              <td colspan="4">Galeri Proyek (preview)</td>
-            </tr>
+            <tr><td>Game RPG Maker</td><td>Game berbasis RPG yang dikembangkan menggunakan RPG Maker, berisi peta, event, dan mekanik sederhana.</td><td>2025</td><td>RPG Maker</td></tr>
+            <tr><td>Portofolio Pribadi</td><td>Website portofolio pribadi ini yang menampilkan informasi, karya, dan kontak.</td><td>2025</td><td>HTML, CSS</td></tr>
+            <tr><td>Desain Aplikasi Kalkulator</td><td>Desain UI aplikasi kalkulator sederhana, fokus pada UX dan tampilan minimalis.</td><td>2025</td><td>Figma / Mockup</td></tr>
+            <tr><td colspan="4">Galeri Proyek (preview)</td></tr>
           </tbody>
         </table>
-
-        <div class="project-gallery" style="margin-top:14px;display:flex;flex-wrap:wrap;">
-          <figure>
-            <img src="images/rpg_project.jpg" alt="RPG Maker Project" />
-            <figcaption>Game RPG Maker</figcaption>
-          </figure>
-
-          <figure>
-            <img src="images/portfolio_preview.png" alt="Portofolio Preview" />
-            <figcaption>Portofolio Pribadi</figcaption>
-          </figure>
-
-          <figure>
-            <img src="images/calculator_design.png" alt="Calculator Design" />
-            <figcaption>Desain Aplikasi Kalkulator</figcaption>
-          </figure>
+        <div class="gallery">
+          <figure><img src="images/rpg_project.jpg" alt="RPG Maker" style="width:100%"><figcaption>Game RPG Maker</figcaption></figure>
+          <figure><img src="images/profile.jpg" alt="Portofolio Preview" style="width:100%"><figcaption>Portofolio Pribadi (screenshot)</figcaption></figure>
+          <figure><img src="images/calculator_design.png" alt="Calculator" style="width:100%"><figcaption>Desain Aplikasi Kalkulator</figcaption></figure>
         </div>
-
-        <!-- optional embedded video (nilai tambah) -->
-        <div style="margin-top:18px;">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-          title="YouTube video" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </section>
+      </div>
     </main>
-
-    <footer>
-      &copy; 2025 Zhorif Fadrul Rahman • <a href="mailto:zhoriffr210806@gmail.com" class="external">Email</a>
+    <footer style="text-align:center;margin-top:18px;color:var(--muted)">
+      &copy; 2025 Zhorif Fadrul Rahman
     </footer>
   </div>
 </body>

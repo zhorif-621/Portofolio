@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Zhorif Fadrul Rahman">
-  <meta name="description" content="Portofolio Zhorif Fadrul Rahman - Beranda">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="Zhorif Fadrul Rahman">
   <title>Beranda | Zhorif F. Rahman</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.ico">
@@ -15,40 +14,62 @@
       <div class="brand">
         <div class="logo" aria-hidden="true"></div>
         <div>
-          <div style="color:var(--muted);font-size:12px">Portofolio</div>
-          <div style="color:white;font-weight:700">Zhorif Fadrul Rahman</div>
+          <h1>Zhorif Fadrul Rahman</h1>
+          <p>Mahasiswa | Pendidikan Teknik Informatika</p>
         </div>
       </div>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">Tentang Saya</a></li>
           <li><a href="portfolio.html">Portofolio</a></li>
         </ul>
       </nav>
     </header>
-
-    <main class="main">
-      <section class="hero section-card">
-        <!-- Perkenalan singkat -->
-        <div class="profile">
-          <img src="images/portfolio_preview.png" alt="Foto profil / preview" />
-          <div class="info">
-            <h1>Halo, saya Zhorif F. Rahman</h1>
-            <p>Saya mahasiswa <strong>Universitas Negeri Padang</strong>, jurusan <em>Pendidikan Teknik Informatika</em>. Saya tertarik pada pengembangan web, game, dan desain aplikasi.</p>
-            <div class="badge">Tema: Hitam Elegan • Aksen Biru Neon</div>
+    <div class="grid">
+      <div class="left">
+        <div class="card fade-up">
+          <div class="profile">
+            <img src="images/profile.jpg" alt="Foto Zhorif Fadrul Rahman">
+            <div>
+              <h2>Saya adalah mahasiswa yang berdedikasi</h2>
+              <p>Saya adalah mahasiswa yang berdedikasi dalam bidang <strong>Pendidikan Teknik Informatika</strong>. Saya memiliki minat besar dalam memahami dan menciptakan teknologi yang dapat memberikan dampak positif.</p>
+              <p>Melalui studi saya, saya telah mengembangkan dasar yang kuat dalam konsep teoretis maupun penerapan praktis. Saya percaya bahwa teknologi adalah alat untuk inovasi, dan saya terus berusaha meningkatkan kemampuan agar selalu relevan dengan perkembangan teknologi yang cepat.</p>
+              <p>Tujuan saya adalah menjadi seorang pengembang yang kompeten dan mampu berkontribusi secara bermakna dalam proyek perangkat lunak.</p>
+              <div style="margin-top:10px"><a class="btn" href="portfolio.html">Lihat Proyek Saya</a></div>
+            </div>
           </div>
         </div>
-      </section>
-
-      <section class="section-card">
-        <h2>Ringkasan</h2>
-        <p>Di website ini saya menampilkan informasi pribadi, keahlian, serta beberapa proyek yang telah saya kerjakan. Silakan kunjungi halaman <a href="portfolio.html" class="external">Portofolio</a> untuk melihat detail proyek.</p>
-      </section>
-    </main>
-
-    <footer>
-      &copy; 2025 Zhorif Fadrul Rahman • <a href="https://www.instagram.com/zhoriffr?igsh=NDNueGJnZ3l0ZXU4" target="_blank" class="external">Instagram</a> • <a href="mailto:zhoriffr210806@gmail.com" class="external">Email</a>
+        <div class="card fade-up" style="margin-top:14px">
+          <h3>Keahlian & Minat</h3>
+          <ul>
+            <li>HTML & CSS</li>
+            <li>Desain UI/UX dasar</li>
+            <li>Pengembangan Game (RPG Maker)</li>
+          </ul>
+        </div>
+      </div>
+      <aside class="right">
+        <div class="card fade-up">
+          <h3>Kontak</h3>
+          <div class="contact-row">
+            <a href="mailto:zhoriffr210806@gmail.com">Email</a>
+            <a href="https://www.instagram.com/zhoriffr?igsh=NDNueGJnZ3l0ZXU4" target="_blank">Instagram</a>
+          </div>
+          <h4 style="margin-top:12px">Hobi</h4>
+          <p>Bermain game • Berenang • Bermain bola</p>
+        </div>
+        <div class="card fade-up" style="margin-top:14px">
+          <h3>Skill Meter</h3>
+          <p>HTML & CSS</p>
+          <div style="height:8px;background:rgba(255,255,255,0.04);border-radius:6px;overflow:hidden"><div style="width:85%;height:8px;background:linear-gradient(90deg,var(--accent),var(--accent-2))"></div></div>
+          <p style="margin-top:8px">RPG Maker</p>
+          <div style="height:8px;background:rgba(255,255,255,0.04);border-radius:6px;overflow:hidden"><div style="width:70%;height:8px;background:linear-gradient(90deg,var(--accent),var(--accent-2))"></div></div>
+        </div>
+      </aside>
+    </div>
+    <footer style="text-align:center;margin-top:18px;color:var(--muted)">
+      &copy; 2025 Zhorif Fadrul Rahman • <a href="mailto:zhoriffr210806@gmail.com" class="external">Email</a>
     </footer>
   </div>
 </body>
